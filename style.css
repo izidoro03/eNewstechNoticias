@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Poppins&family=Roboto+Mono&display=swap");
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.row-news-emphasis {
+  background-color: #d9d9d9;
+}
+
+.newEmphasis {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  margin: 25px 0px;
+}
+
+.newEmphasis > a > img {
+  max-height: 300px;
+  max-width: 400px;
+  height: 300px;
+}
+
+.newEmphasis > a {
+  width: 400px;
+}
+
+.captionImg {
+  position: absolute;
+  bottom: 5px;
+  background-color: #0a000036;
+  color: #fff;
+  height: 50px;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.newEmphasis:hover .captionImg {
+  transition: ease-in 1s;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  background-color: #0a00009c;
+}
+
+.captionImg > h3 {
+  font-size: 1rem;
+  width: 95%;
+  margin-bottom: 1rem;
+  margin-top: 8px;
+}
+
+/* container noticias com estilo atualizado */
+.container-big-simple a,
+.container_div_noticias_lado_direito {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  max-height: 409px;
+  padding: 25px;
+}
+
+.container_div_noticias_lado_direito {
+  margin-bottom: 40px;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.inf-about-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.main-news {
+  background-color: #d9d9d9;
+  padding: 30px 30px 30px 60px;
+}
+
+.container-big-simple > a > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.container-big-simple > a > label {
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.titleNew {
+  margin-bottom: 30px;
+}
+
+.container-little-new a {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  width: 100%;
+  height: 102px;
+  padding: 25px;
+  max-height: 179px;
+  max-width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-little-new > a > h2 {
+  font-size: 1rem;
+  width: 241px;
+}
+
+.container-big-simple img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.container-little-new img {
+  width: auto;
+  object-fit: cover;
+}
+
+.img-desc-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  width: 33%;
+}
+
+.container-completo > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.container-completo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_temperatura {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_temperatura > label {
+  margin-top: 10px;
+}
+
+.noticia_mais_lidas_top3 {
+  display: flex;
+  align-items: center;
+}
+
+.noticia_mais_lidas_top3 > label {
+  font-size: 1.5rem;
+  padding: 2px;
+  color: #777777;
+}
+
+.noticia_mais_lidas_top3 > a {
+  color: #00893c;
+  border: none;
+  font-weight: bold;
+}
+
+.noticia_mais_lidas_top3 > .top1 {
+  padding-right: 7px;
+}
+
+.containers-de-grupos-pequenos > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-block-title {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.section-block-title::after {
+  content: ">";
+  font-size: 1.5rem;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: #00893c;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  top: auto;
+}
+
+/****************************************************** estilo popups ******************************************************/
+
+.popupTrue {
+  display: block;
+}
+
+.popup_container {
+  background-color: #ffffff;
+  width: 402px;
+  height: 458px;
+  display: block;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+/* AQUI É PRA AJEITAR SÓ O HEADER DO FORMS*/
+.form-header {
+  display: flex;
+  justify-content: center;
+}
+
+/* AQUI MEXE NO FORMS, CORES, ALINHAMENTO, TAMANHO*/
+.form {
+  padding: 1rem;
+}
+
+/*AQUI MEXE NOS INPUTS COMO UM GERAL*/
+.connect-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+/*AQUI MEXE NOS INPUTS TAMBÉM*/
+
+.input-group {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0px;
+}
+
+/*RESUMINDO, TODOS ESSES .INPUT-BOX SERVE PRA MEXER EM ALGO NOS IMPUTS*/
+.input-box input {
+  padding: 1.5rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+/* AQUI ELE DA UMA COR QUANDO BOTA O MOUSE EM CIMA DE CADA IMPUT*/
+.input-box input:hover {
+  background-color: #eeeeee96;
+}
+
+/* AQUI, QUANDO SELECIONA O IMPUT FICA VERDE AO REDOR (ACHEI LEGAL :) */
+.input-box input:focus-visible {
+  outline: 1px solid #00893c;
+}
+
+/* AQUI É A COR PLACEHOLDER*/
+.input-box input::placeholder {
+  color: #000000be;
+}
+
+/*AQUI VC MEXE NOS CHECKBOX DA AREA DE INTERESSE*/
+.conect-group {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto max-content;
+  margin: auto;
+}
+
+/* AQUI VC MEXE NA DISTANCIA DO CHECKBOX PROS NOMES*/
+.input-conect input {
+  margin-right: 0.3rem;
+}
+
+/* AQUI VC VAI MEXER NA FONTE DOS CHECKBOX */
+.input-conect label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+/* TODOS ESSES ABAIXOS SERVEM PARA O BOTÃO "ENTRAR"*/
+.login-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.login-button button {
+  border: none;
+  background-color: #d9d9d9;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.login-button button:hover {
+  background-color: #bbb9b9;
+}
+
+.login-button button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/*AQUI VC MEXE NO BOTAO "CRIAR CONTA"*/
+.create-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account a {
+  color: #000000;
+}
+
+.popupTrue,
+.popupTrueCadastro,
+.popupTrueJornalista {
+  display: flex;
+  justify-content: center;
+}
+
+.popupdisplay,
+.modalCadastroDisplay,
+.modalJornalistaDisplay {
+  display: none;
+  position: absolute;
+  top: 100px;
+  opacity: 100%;
+}
+
+.background-modals {
+  display: none;
+  background-color: #555555;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 50%;
+}

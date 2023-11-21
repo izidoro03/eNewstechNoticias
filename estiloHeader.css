@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* HEADER */
+
+.list-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d9d9d9;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.logo-nav-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* dropdown */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  margin: 0;
+  background: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*  */
+.logo-nav-header li,
+.dropbtn {
+  margin-right: 25px;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+}
+
+.logo-header label {
+  color: #00893c;
+  cursor: pointer;
+}
+
+.btnSearch {
+  padding: 10px 25px;
+  background-color: #00893c;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.bemvindo {
+  display: none;
+  flex-direction: column;
+}
+
+.bemvindo h3 {
+  font-size: 1.2rem;
+}
+
+.bemvindo label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.tonarJornalista {
+  display: none;
+}
+
+.destaque-verde {
+  color: #00893c;
+}
+
+.CorDestaqueVerde {
+  color: #00893c;
+}

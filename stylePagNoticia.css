@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Poppins&family=Roboto+Mono&display=swap");
+
+.conteudo-img {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  max-height: 445px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo-img label {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.conteudo-img p {
+  font-size: 1rem;
+}
+
+.assunto {
+  display: grid;
+  gap: 42px;
+  grid-template-columns: auto auto;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  padding-left: 61px;
+  padding-top: 25px;
+}
+.noticias-pequenas img {
+  width: 230px;
+  height: 130px;
+}
+.noticias-pequenas {
+  display: flex;
+  margin-top: 15px;
+}
+
+.noticias-pequenas p {
+  font-size: 0.9rem;
+}
+.noticias-pequenas h3 {
+  font-size: 1rem;
+}
+.titulo-conteudo {
+  margin-left: 50px;
+  padding-right: 50px;
+}
+.tituPara {
+  width: 100%;
+  margin-left: 15px;
+}
